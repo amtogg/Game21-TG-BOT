@@ -26,6 +26,7 @@ public class BlackjackBot extends TelegramLongPollingBot {
             logger.info("Бот успешно запущен.");
         } catch (TelegramApiException e) {
             logger.error("Ошибка при запуске бота: ", e);
+
         }
     }
 
